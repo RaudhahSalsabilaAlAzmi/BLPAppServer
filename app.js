@@ -12,7 +12,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:5173", "https://todo-app-client-3q0ei4q6z-farkhan777.vercel.app"],
+  origin: ["http://localhost:5173", "https://todo-app-client-3q0ei4q6z-farkhan777.vercel.app", "http://192.168.127.182:5173"],
   credentials: true
 }));
 app.use(cookieParser());
